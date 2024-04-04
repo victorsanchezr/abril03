@@ -30,22 +30,25 @@ public class Areas {
         this.areaRectangulo = areaRectangulo;
     }
 
-    public void areaCResultado(float radio){
+    public float areaCResultado(float radio){
         areaCirculo = PI * (radio*radio);
+       return areaCirculo;
 
 
     }
 
-    public void areaRResultado(float largo,float ancho){
+    public float areaRResultado(float largo,float ancho){
 
         areaRectangulo = largo*ancho;
+        return areaRectangulo;
 
     }
 
     @Override
     public String toString() {
-        return "Areas" +
+        return "Areas{" +
                 "areaCirculo=" + areaCirculo +
-                "\nareaRectangulo=" + areaRectangulo;
+                ", areaRectangulo=" + areaRectangulo +
+                '}';
     }
 }

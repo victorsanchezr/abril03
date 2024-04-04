@@ -1,6 +1,6 @@
-package com.softtek.presentacion.numero5;
+package com.softtek.presentacion.ejercicio5;
 
-import com.softtek.modelo.numero5.Tablas;
+import com.softtek.modelo.ejercicio5.Tablas;
 
 public class Main {
     public static void main(String[] args) {

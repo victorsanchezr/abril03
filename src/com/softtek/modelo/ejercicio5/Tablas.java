@@ -1,4 +1,4 @@
-package com.softtek.modelo.numero5;
+package com.softtek.modelo.ejercicio5;
 
 public class Tablas {
 
